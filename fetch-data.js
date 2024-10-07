@@ -22,3 +22,5 @@ async function fetchUserData() {
         dataContainer.innerHTML = 'Failed to load user data.';
     }
 }
+
+document.addEventListener('DOMContentLoaded', fetchUserData);
